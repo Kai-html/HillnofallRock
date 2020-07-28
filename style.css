@@ -1,0 +1,136 @@
+<style>
+    .try{
+        color:blue;
+    }
+    header{
+        border-bottom: 80px solid lightgray;
+        border-top:80px solid  lightgray;
+        border-left:80px solid lightgray;
+        border-right:80px solid lightgray;
+        margin:0px 100px;
+    }
+    body{
+        background-color:black;
+        margin: 0;
+        padding: 0;
+    }
+    .gamebox{
+        font-size:32px;
+        font-family: monospace;
+    }
+    .load{
+        border-bottom: 80px solid lightgray;
+        border-top:80px solid  lightgray;
+        border-left:80px solid lightgray;
+        border-right:80px solid lightgray;
+        margin: 20px 10px;
+        text-align:center;
+    }
+    .appear{
+        overflow: hidden; 
+        animation: animate 3s linear forwards; 
+        color:white;
+        font-size:32px;
+        font-family:monospace;
+        text-align:center;
+        text-decoration: none;
+        display:inherit;
+    }
+    @keyframes animate { 
+        0% { 
+            width:0px; 
+            height: 97px; 
+        } 
+        99%{
+            width:0px;
+            height:97px;
+        }
+    } 
+    .p{
+        color:white;
+        font-size:32px;
+        font-family:monospace;
+        text-align:center;
+        text-decoration: none;
+        display:inherit;
+    }
+    .two{
+        color:white;
+        font-size:32px;
+        font-family:monospace;
+        text-align:center;
+        display:inherit;
+        animation: animate 7s linear forwards;
+        overflow: hidden; 
+        position: relative;
+        bottom: 23px;
+    }
+    @keyframes animate { 
+        0% { 
+            width:0px; 
+            height:10px; 
+        } 
+        99%{
+            width:0px;
+            height:10px;
+        }
+    }
+    .leftOPT{
+        color:rgba(255, 255, 255, 0);
+        font-size:32px;
+        font-family:monospace;
+        text-align:left;
+        text-decoration: none;
+        margin: -400px 390px;
+        overflow: hidden; 
+        animation: animate 7s linear forwards;
+        display:inherit;
+    }
+    @keyframes animate { 
+        0% { 
+            width:0px; 
+            height:70px; 
+        } 
+        99%{
+            width:0px;
+            height:70px;
+        }
+    }
+    .rightOPT{
+        color:rgba(255, 255, 255, 0);
+        font-size:32px;
+        font-family:monospace;
+        text-align:right;
+        text-decoration: none;
+        margin:410px 370px;
+        overflow: hidden; 
+        animation: animate 7s linear forwards;
+        display:inherit;
+    }
+    @keyframes animate { 
+        0% { 
+            width:0px; 
+            height: 17px; 
+        } 
+        99%{
+            width:0px;
+            height:17px;
+        }
+    }
+    .twoA{
+        color:rgba(255, 255, 255, 0);
+        font-size:36px;
+        font-family:monospace;
+        margin: -140px 560px;
+        text-decoration: none;
+        display:flex;
+    }
+    .twoArock{
+        color:rgba(255, 255, 255, 0);
+        font-size:36px;
+        font-family:monospace;
+        margin: 100px 600px;
+        text-decoration: none;
+        display:inherit;
+    }
+</style>
